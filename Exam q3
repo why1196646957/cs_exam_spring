@@ -48,6 +48,12 @@ public class Queue{
 --------------------------------------------------------------
 
 a)  Explain what a Stack is.  Specify if it is LIFO or FIFO.
+Stack is a LIFO.
+Stack is a subclass of Vector that implements a standard last-in, first-out stack.
+Stack only defines the default constructor, which creates an empty stack.
+Stack includes all the methods defined by Vector, and adds several of its own.
 b)  Complete the Stack class by writing the "pop" method.
 c)  Explain what a Queue is.  Specify if it is LIFO or FIFO.
+A queue is a FIFO.
+Addition takes place only at the tail, and removal takes place only at the head.
 d)  Complete the Queue class by writing the "peek" and "remove" methods.
